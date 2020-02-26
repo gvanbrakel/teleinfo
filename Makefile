@@ -8,8 +8,8 @@ SHELL=/bin/sh
 # complicated on NAS device such as synology and different versions
 # so compile with it only is needed or if it works
 # Comment these 2 following lines if you want to use mysql features
-CFLAGSSQL=-DUSE_MYSQL
-LIBSSQL=-lmysqlclient
+#CFLAGSSQL=-DUSE_MYSQL
+#LIBSSQL=-lmysqlclient
 
 # if you do not want to compile for EMONCMS publication
 # remove the link to curl library
